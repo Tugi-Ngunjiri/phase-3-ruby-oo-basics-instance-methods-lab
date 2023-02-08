@@ -8,7 +8,6 @@ class Talk
      class Walk
         def person
             puts "The Person is walking".
-            person.walks #=> "The person is walking"
-        end
+           end
       end
         person.walks #=> "The person is walking"
