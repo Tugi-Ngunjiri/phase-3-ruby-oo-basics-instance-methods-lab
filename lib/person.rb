@@ -2,8 +2,9 @@ class Talk
      def person 
         puts "Hello World!"
          end
+         person.talks #=> "Says Hello World!"
       end
-     person.talks #=> "Says Hello World!"
+     
 
      class Walk
         def person
@@ -11,3 +12,4 @@ class Talk
            end
       end
         person.walks #=> "The person is walking"
+   end
